@@ -87,7 +87,7 @@ function sshConnect() {
       // TODO: ADD YOUR IP ADDRESS BELOW (e.g. '12.34.5.67')
       host: 'ec2-18-234-191-40.compute-1.amazonaws.com',
       username: 'ubuntu',
-      privateKey: 'final-key.pem'
+      privateKey: 'finalkey.pem'
     })
     .then(function() {
       console.log('SSH Connection established.');
